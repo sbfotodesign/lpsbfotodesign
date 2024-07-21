@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+    img {
+        height: 720px;
+        width: 1280px;
+
+    }
+main {
+    padding: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 0.5em;
+}
+
+input[type="email"] {
+    width: 250px;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+}
+nav ul {
+    list-style: none; /* Remove os marcadores padrão */
+    margin: 0; /* Remove margem superior */
+    padding: 0; /* Remove preenchimento */
+}
+
+nav li {
+    display: inline-block; /* Exibe os itens da lista como blocos em linha */
+    margin-right: 20px; /* Adiciona 2cm de espaço à direita de cada item */
+}
+
+nav a {
+    text-decoration: none; /* Remove a decoração sublinhada do texto */
+    color: #000; /* Define a cor do texto */
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-top: 1em;
+}
+
+.redes-sociais img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.7em 1.5em;
+    border: none;
+    cursor: pointer;
+}
